@@ -1,19 +1,31 @@
-header{
-    text-align: center;
-    font-size: 30px;
-    background-color: black;
-    color: silver;
-    padding: 20px 30px 20px 30px;
-    font-family: 'Metamorphous', cursive;
+header {
+  text-align: center;
+  font-size: 30px;
+  background-color: black;
+  color: silver;
+  padding: 20px 30px 20px 30px;
+  font-family: "Metamorphous", cursive;
 }
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
-.showcaseMiddle{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 30px;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+.showcaseMiddle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 0px 30px 0px 30px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
 }
-
+.showcaseMiddle .flexContainer{
+    padding: 20px;
+    border:1px solid grey;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.showcaseBottom .code{
+    height: 80vh;
+    background-color: gray;
+    margin: 50px;
+    border: 4px solid black;
+    border-radius: 15px;
+}
