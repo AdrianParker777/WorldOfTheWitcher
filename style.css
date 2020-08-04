@@ -1,0 +1,19 @@
+header{
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    color: silver;
+    padding: 20px 30px 20px 30px;
+    font-family: 'Metamorphous', cursive;
+}
+img{
+    width: 100%;
+}
+.showcaseMiddle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
